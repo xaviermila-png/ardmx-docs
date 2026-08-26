@@ -73,8 +73,13 @@
        nombre de canals gestionables, nombre d'escenes actives.
      - "Configuració" (ardmx_evo_system_config_screen.dart) — nom
        Bluetooth, PIN, exportació/importació, reset de fàbrica.
-     - Igual que l'One: les 4 últimes només accessibles amb el selector
-       en mode "Configuració" (V11=7). -->
+     - "Simulació" (lib/features/simulacio/, compartida amb l'One v2) —
+       visualitzador gràfic de les corbes del cicle, fins a 12 canals
+       alhora, Play/Pausa/Stop i marcador de posició en directe. Primer
+       botó del submenú de Configuració. Força pantalla horitzontal en
+       obrir-se.
+     - Igual que l'One: només accessibles amb el selector en mode
+       "Configuració" (V11=7). -->
 
 ## Gestió d'escenes
 

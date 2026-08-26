@@ -71,7 +71,12 @@
        d'escenes actives.
      - "Configuració" (ardmx_one_v2_system_config_screen.dart) — nom
        Bluetooth, PIN de connexió, exportació/importació, reset de fàbrica.
-     - Aquestes 4 últimes pantalles només són accessibles amb el selector
+     - "Simulació" (lib/features/simulacio/, compartida amb l'EVO) —
+       visualitzador gràfic de les corbes del cicle, fins a 12 canals
+       alhora, Play/Pausa/Stop i marcador de posició en directe. Primer
+       botó del submenú de Configuració. Força pantalla horitzontal en
+       obrir-se.
+     - Aquestes pantalles només són accessibles amb el selector
        principal en mode "Configuració" (V11=7) — el firmware només hi
        reacciona (Escenes()/Cicle()/ConfiguracioParametres()) mentre
        EstatSelector==7. -->

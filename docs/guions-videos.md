@@ -42,11 +42,19 @@
 
 ### ESCENA 9: Programació del cicle (durades de les 8 fases)
 
-### ESCENA 10: Paràmetres (nom del pessebre, descripció, nombre d'escenes/canals)
+### ESCENA 10: Simulació — visualitzador gràfic de les corbes
 
-### ESCENA 11: Configuració (nom Bluetooth, PIN, exportar/importar, reset de fàbrica)
+<!-- nota: pantalla nova (lib/features/simulacio/), primer botó del
+     submenú de Configuració. Gravar en horitzontal (força aquesta
+     orientació sola): el gràfic amb diverses corbes alhora, canviar de
+     pàgina de canals, i Play/Pausa/Stop fent avançar el marcador de
+     posició en directe sobre el gràfic. -->
 
-### ESCENA 12: Resum / tancament
+### ESCENA 11: Paràmetres (nom del pessebre, descripció, nombre d'escenes/canals)
+
+### ESCENA 12: Configuració (nom Bluetooth, PIN, exportar/importar, reset de fàbrica)
+
+### ESCENA 13: Resum / tancament
 
 ---
 
@@ -83,8 +91,15 @@
 
 ### ESCENA 10: Programació del cicle sincronitzat amb música
 
-### ESCENA 11: Paràmetres (inclou selecció de cançó)
+### ESCENA 11: Simulació — visualitzador gràfic de les corbes
 
-### ESCENA 12: Configuració (nom Bluetooth, PIN, exportar/importar, reset de fàbrica)
+<!-- nota: mateixa pantalla que al Vídeo 1 (compartida entre One v2 i
+     EVO) — es pot reutilitzar bona part del material gravat allà si
+     s'escau, només cal deixar clar que aquí les corbes reflecteixen el
+     cicle sincronitzat amb la música. -->
 
-### ESCENA 13: Resum / tancament
+### ESCENA 12: Paràmetres (inclou selecció de cançó)
+
+### ESCENA 13: Configuració (nom Bluetooth, PIN, exportar/importar, reset de fàbrica)
+
+### ESCENA 14: Resum / tancament
