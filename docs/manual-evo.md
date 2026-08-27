@@ -113,6 +113,40 @@
      reproducció amb l'inici/fi del cicle automàtic (IniciarReproduccio/
      PararReproduccio/ContinuarReproduccio a main.cpp). -->
 
+## Events (específic de l'EVO)
+
+<!-- nota: secció NOVA (v2.0) que NO existeix al manual de l'One v2 —
+     l'One no té V77/V78. Botó "Events" a Configuració (sota de tot, a la
+     segona fila) — pantalla que llista només els events ja definits, amb
+     un botó "Afegir event" per anar-ne creant fins a un màxim de 10.
+
+     Un event és una acció programada en un instant concret ("Moment", en
+     segons des de l'inici del cicle) que dura uns segons ("Durada") i pot
+     combinar, independentment:
+       - Un SO puntual: un fitxer de la carpeta ADVERT/ del USB del
+         DFPlayer (camp "So" = número de fitxer, p.ex. una campana).
+         Pausa la música de fons en curs i la reprèn tota sola en acabar
+         (o quan es talla als segons de "Durada" configurats).
+       - Un CANAL forçat al màxim (255) durant la durada de l'event, per
+         sobre del que digui l'escena/transició activa en aquell moment —
+         torna sol al valor normal en acabar.
+     Cal com a mínim un dels dos (so o canal) — un event buit no es pot
+     desar.
+
+     Cada fila té un botó "Provar" que dispara l'event immediatament
+     (ignora el "Moment" configurat), tant amb el cicle aturat com en
+     marxa — útil per confirmar el so/canal abans de deixar-lo programat
+     dins d'un cicle real. Un botó de paperera elimina l'event.
+
+     Els events es marquen també al gràfic de la pantalla "Simulació" com
+     a línies verticals ambar etiquetades "E1", "E2"... a la posició
+     temporal que els correspon.
+
+     L'exportació/importació de la configuració (pantalla Configuració)
+     inclou els events definits — només en fitxers exportats des d'un
+     EVO; important un fitxer del One v2 (que no en té) esborra els
+     events que hi hagués configurats en aquest dispositiu. -->
+
 ## Resolució de problemes freqüents
 
 <!-- nota tècnica candidata (confirmar amb l'usuari quines calen):
